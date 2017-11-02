@@ -3,6 +3,8 @@ const ReactDOM = require('react-dom');
 import { Route, Router, IndexRoute, hashHistory } from 'react-router';
 
 
+import ComponentOne from 'ComponentOne';
+
 //load foundation
 //require('style!css!foundation-sites/dist/css/foundation.min.css');
 $(document).foundation();
@@ -13,6 +15,8 @@ require('style!css!sass!applicationStyles')
 
 
 ReactDOM.render(
-  <p>Boiler plate 3 Project</p>,
+  <div>
+    <ComponentOne/>
+  </div>,
   document.getElementById('app')
 );
